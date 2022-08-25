@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0px 5px;
+}
+
+body::before{
+    content: "";
+    height: 1005px;
+    width: 1009px;
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-image: url(../images//backcover.svg);
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Navbar  */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+nav img {
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 30px;
+    color: rgb(68, 51, 179);
+}
+
+.signin-btn {
+    display: inline-block;
+    background: linear-gradient(90deg , #975df2, #fe8add);
+    margin-right: 150px;
+    padding: -0px 20px;
+    color: #ffffff;
+    border-radius: 70px;
+}
+
+/* Intro-Section  */
+
+.intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Left-Section  */
+
+.left-section {
+    display: flex;
+   flex-direction: column;
+    margin-top: 100px;
+  
+}
+
+.left-section h1 {
+    display: inline-block;
+    margin-left: 10px;
+    color: #383CC1;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.left-section h4 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60%;
+    font-weight: 100;
+}
+
+.learn-more-btn {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 4px 20px;
+    background: linear-gradient(90deg , #975df2, #fe8add);
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 35%; 
+}
+
+.imgs-div {
+    position: relative;
+}
+
+.backcover {
+   position: absolute;
+    margin-top: -120px;
+    margin-right: 10px;
+    margin-left: -150px;
+    width: 120%;
+}
+
+.vector-img {
+    position: absolute;
+   margin-top: 400px;
+   margin-left: -90px;
+}
+
+.vector-dot {
+    position: absolute;
+    margin-top: 410px;
+   margin-left: -25px;
+}
+

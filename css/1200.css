@@ -1,0 +1,77 @@
+@media screen and (max-width:1200px) {
+
+ body::before {
+        height: 755px;
+        width: 755px;
+    }
+
+ /* Navbar  */
+  
+ nav img {
+    height: 40px;
+ }
+
+ .nav-items{
+    font-size: 20px;
+}
+
+.signin-btn{
+        margin-right: 0;
+}
+           
+
+/* Intro-Section  */
+
+/* Left-Section  */
+
+.left-section h1 {
+    font-size: 50px;
+    }
+    
+    .left-section h4 {
+    margin-top: 10px;
+    }
+
+    .learn-more-btn{
+        margin-top: 25px;
+        font-size: 10px;
+        font-weight: 700;
+        }
+
+
+/* Right-Section  */
+
+
+
+.imgs-div>img:nth-child(3) {
+    height: 600px;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+
+
+
+.vector-img{
+    height: 115px;
+    left: 130px;
+    top: 30px;
+}
+
+.vector-dot {
+    top: 30px;
+    height: 22px;
+    left: 130px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
